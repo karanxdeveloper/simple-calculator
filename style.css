@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+}
+#main{
+width: 100vw;
+height: 100vh;
+box-sizing: border-box;
+background-color: grey;
+display: flex;
+align-items: center;
+justify-content: center;
+margin: auto;
+}
+
+.container{
+    width: 40vw;
+    height: 80vh;
+    border-radius: 28px;
+    background-color: rgb(112, 109, 109);
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    box-shadow:  7px 7px 14px #2a2a2a,
+             -7px -7px 14px #565656;
+    /* justify-content: center; */
+}
+
+#display{
+    height: 7vh;
+    width: 30vw;
+    border: none;
+    outline: none;
+    border-radius: 24px;
+    font-size: 1.5rem;
+    box-shadow: inset 4px -3px 16px #979797,
+            inset -2px 1px 16px #ffffff;
+}
+
+.features{
+    display: flex;
+    gap: 10px;
+    width: 35vw;
+    height: 60vh;
+    border-radius:22px ;
+    background-color: rgb(46,42,42);
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    box-shadow:  7px 7px 14px #2a2a2a,
+             -7px -7px 14px #565656;
+}
+
+.nums{
+    width: 30.5vw;
+    height: 56vh;
+    background-color: rgb(68,65,65);
+    border-radius:20px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 5px;
+    box-shadow:  1px 1px 14px #2a2a2a,
+             -1px -1px 14px #565656;
+}
+
+.num{
+    width: 7vw;
+    height: 12vh;
+    margin:2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 18px;
+    box-sizing: border-box;
+    background-color: rgb(92,89,89);
+    box-shadow: inset 7px 7px 14px #2a2a2a,
+            inset -7px -7px 14px #565656;
+
+    transition: all 0.1s ease-in-out;
+    color: black;
+}
+
+.num:hover{
+    box-shadow: 0 2px #666;
+     transform: translateY(-2px);
+}
+
+.num:focus{
+    outline: none;
+}
+
+.num:active{
+    outline: none;
+    border: none;
+    background-color: inherit;
+    color: inherit;
+}
+
